@@ -10,9 +10,9 @@
 
 /*estilos nav bs*/
 
-.navegador {
+/*.navegador {
     color: #ffffff;
-}
+}*/
 
 .v--inicio{
     color: #ffffff;
@@ -28,7 +28,7 @@
 
 .titulo-encabezado {
     font-family:  "Poppins", sans-serif;
-    color: ; #0000;
+    color: #000000;
     text-align: center;
     font-size: 100px;
   }
