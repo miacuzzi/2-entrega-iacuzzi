@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Encode Sans Semi Expanded", sans-serif;
+    
+
+}
+
+/*header*/
+
+/*estilos nav bs*/
+
+.navegador {
+    color: #ffffff;
+}
+
+.v--inicio{
+    color: #ffffff;
+}
+
+.encabezado {
+    background-image:url('../assets/balcon\ lisboa.jpg');
+    background-size: contain;
+    background-position: center; 
+  
+} 
+
+
+.titulo-encabezado {
+    font-family:  "Poppins", sans-serif;
+    color: ; #0000;
+    text-align: center;
+    font-size: 100px;
+  }
+
+.menu-lista li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/*header - fotos*/
+.lisboafotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lisboafotos img {
+    width: 400px;
+    padding: 20px;    
+}
+
+
+/*main*/
+
+ /*container nav bs*/
+
+ .imglisb img{
+    width: 100%;
+    height: 250px;
+ }
+ 
+
+.texto-principal {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}
+
+/*aside*/
+
+/*carrusel nav bs*/
+.carrusel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto
+
+}
+
+
+.fotos-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   
+}
+
+.fotos-principal img {
+    width: 400px;
+    padding: 20px;
+
+}
+
+.map{
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+}
+
+/*footer*/
+
+.redes img {
+    width: 100px;
+   margin: 50px 630px;
+
+}
+
+.contacto{
+    text-align: left;
+}
+
+.politica {
+    text-align: right;
+}
+
+.copy {
+    text-align: center;
+}
