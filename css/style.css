@@ -55,7 +55,15 @@
 
 /*main*/
 
+.fotografias{
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 20px;
+    text-decoration: double;
+}
+
  /*container nav bs*/
+
 
  .imglisb img{
     width: 100%;
@@ -107,28 +115,33 @@
 }
 
 .map{
-    padding-top: 40px;
-    padding-right: 50px;
-    padding-bottom: 40px;
-    padding-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
 }
 
 /*footer*/
 
-.redes img {
+.footerimag img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60px;
+    margin-top: 80px;
+    margin-bottom:50px ;
+}
+
+/*.redes img {
     width: 100px;
    margin: 50px 630px;
 
+}*/
+
+.final p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.contacto{
-    text-align: left;
-}
 
-.politica {
-    text-align: right;
-}
-
-.copy {
-    text-align: center;
-}
